@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class Controlador {
 	@RequestMapping(path="/bienvenida", method=RequestMethod.GET)
 	public String bienvenida() {
-		return nu
+		return "miVista";
 	}
 	
 	@RequestMapping(path="/despedida", method=RequestMethod.GET)
 	public String despedida() {
-		
+		return null;
 	}
 
 }
